@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./compiled/styles.css" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="./images/1-header/Index_0055_Logo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#"> HOME </a>
+                <a class="nav-link" href="#about-us">ABOUT US</a>
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                <a class="nav-link" href="#pricing">PRICING</a>
+                <a class="nav-link" href="#team">TEAM</a>
+                <a class="nav-link" href="#our-blog">BLOG</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div
+          id="carouselControls"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/1-header/slide1 2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="floating-content">
+                  <h3>Out Clients Are Our First Priority</h3>
+                  <h1>
+                    WELCOME TO <br />
+                    BINO
+                  </h1>
+                  <div class="figure-dot-">
+                    <div class="line1"></div>
+                    <div class="dot"></div>
+                    <div class="line2"></div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Obcaecati ad quidem labore iste omnis excepturi voluptates
+                    minus aut molestias maxime!
+                  </p>
+
+                  <div class="banner-buttons">
+                    <button class="btn">GET STARTED NOW</button>
+                    <button class="btn">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/1-header/slide2 2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="floating-content">
+                  <h3>Out Clients Are Our First Priority</h3>
+                  <h1>WELCOME TO <br />BINO 2</h1>
+                  <div class="figure-dot-">
+                    <div class="line1"></div>
+                    <div class="dot"></div>
+                    <div class="line2"></div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Obcaecati ad quidem labore iste omnis excepturi voluptates
+                    minus aut molestias maxime!
+                  </p>
+                  <div class="banner-buttons">
+                    <button class="btn">GET STARTED NOW</button>
+                    <button class="btn">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/1-header/slide3 2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="floating-content">
+                  <h3>Out Clients Are Our First Priority</h3>
+                  <h1>WELCOME TO <br />BINO 3</h1>
+                  <div class="figure-dot-">
+                    <div class="line1"></div>
+                    <div class="dot"></div>
+                    <div class="line2"></div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Obcaecati ad quidem labore iste omnis excepturi voluptates
+                    minus aut molestias maxime!
+                  </p>
+                  <div class="banner-buttons">
+                    <button class="btn">GET STARTED NOW</button>
+                    <button class="btn">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <button class="btn" id="btnAnchor">
+          <img src="./images/1-header/Index_0056_Forma-1.png" alt="" />
+        </button>
+        <button class="btnBackTop">^</button>
+      </header>
+      <main class="container-fluid">
+        <div id="who-we-are" class="row">
+          <div class="who-element col-md-12 col-lg-6 col-xl-3">
+            <div class="icons">
+              <img src="./images/2-who-we-are/1-glasses.png" alt="" />
+            </div>
+            <h3>SLEEK DESIGN</h3>
+            <div class="rectangle"></div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              let. Lorem Ipsum has been the industry.
+            </p>
+          </div>
+          <div class="who-element col-md-12 col-lg-6 col-xl-3">
+            <div class="icons">
+              <img src="./images/2-who-we-are/2-heart.png" alt="" />
+            </div>
+            <h3>CLEAN CODE</h3>
+            <div class="rectangle"></div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              let. Lorem Ipsum has been the industry.
+            </p>
+          </div>
+          <div class="who-element col-md-12 col-lg-6 col-xl-3">
+            <div class="icons">
+              <img src="./images/2-who-we-are/3-lightbulb.png" alt="" />
+            </div>
+            <h3>CREATIVE IDEAS</h3>
+            <div class="rectangle"></div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              let. Lorem Ipsum has been the industry.
+            </p>
+          </div>
+          <div class="who-element col-md-12 col-lg-6 col-xl-3">
+            <div class="icons">
+              <img src="./images/2-who-we-are/4- chat.png" alt="" />
+            </div>
+            <h3>FREE SUPPORT</h3>
+            <div class="rectangle"></div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              let. Lorem Ipsum has been the industry.
+            </p>
+          </div>
+        </div>
+        <div id="about-us" class="row">
+          <div class="about-image col-xxl-6">
+            <img src="./images/3-about-us/Index_0050_Monitor.png" alt="" />
+          </div>
+          <div class="about-content col-xxl-6">
+            <h2>OUR HISTORY</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ip sum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. <br /><br />It
+              has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+            <button class="btn browse">BROWSE OUR WORK</button>
+          </div>
+        </div>
+        <div id="services" class="row">
+          <div class="services-left-container">
+            <div class="services-title">
+              <h2>OUR SERVICES</h2>
+            </div>
+            <div class="services-content-element">
+              <h3>WEB DESIGN</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ducimus, blanditiis quaerat corporis, reprehenderit obcaecati
+                eaque unde rerum esse nostrum quasi, omnis totam nemo vero quis
+                nam maiores voluptas aliquam eligendi.
+                <a href=""
+                  ><img src="./images/4-services/Index_0048_1.png" alt=""
+                /></a>
+              </p>
+            </div>
+            <div class="services-content-element">
+              <h3>WEB DESIGN</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ducimus, blanditiis quaerat corporis, reprehenderit obcaecati
+                eaque unde rerum esse nostrum quasi, omnis totam nemo vero quis
+                nam maiores voluptas aliquam eligendi.
+                <a href=""
+                  ><img src="./images/4-services/Index_0047_2.png" alt=""
+                /></a>
+              </p>
+            </div>
+            <div class="services-content-element">
+              <h3>PHOTOGRAPHY</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ducimus, blanditiis quaerat corporis, reprehenderit obcaecati
+                eaque unde rerum esse nostrum quasi, omnis totam nemo vero quis
+                nam maiores voluptas aliquam eligendi.
+                <a href=""
+                  ><img src="./images/4-services/Index_0046_3.png" alt=""
+                /></a>
+              </p>
+            </div>
+          </div>
+          <div class="services-image">
+            <img
+              src="./images/4-services/Index_0049_Put-Your-Image.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="portfolio" class="row container-fluid">
+          <div class="portfolio-title row">
+            <h2>RECENT WORKS</h2>
+            <p>
+              It has survived not only five centuries, but also the leap
+              scrambled it to make a type.
+            </p>
+            <div class="figure-dot-">
+              <div class="line1"></div>
+              <div class="dot"></div>
+              <div class="line2"></div>
+            </div>
+          </div>
+          <div class="portfolio-browser">
+            <div class="browse-resent-works">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href=""> ALL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="">/</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""> PRINT DESIGN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="">/</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""> ANIMATION </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="">/</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""> WEB DESIGN </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="">/</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""> PHOTOGRAPHY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="">/</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""> ART </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="">/</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""> VIDEO</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="portfolio-content row">
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0038_8.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0039_7.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0040_6.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0041_5.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0042_4.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0043_3.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0044_2.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+            <div
+              class="portfolio-content-element col-xxl-3 col-lg-4 col-md-6 col-sm-12"
+            >
+              <a href=""
+                ><img src="./images/5-portfolio/Index_0045_1.png" alt=""
+              /></a>
+              <div class="hover-wrap">
+                <div class="bar"></div>
+                <h3>T-SHIRT DESIGN</h3>
+                <p>art/t-shirt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="case-study" class="row">
+          <div class="case-study-title">
+            <h2>CASE STUDY</h2>
+            <p>
+              A brief history about how this process works, keep an eue till the
+              end.
+            </p>
+            <div class="figure-dot-">
+              <div class="line1"></div>
+              <div class="dot"></div>
+              <div class="line2"></div>
+            </div>
+          </div>
+          <div class="case-study-content">
+            <div class="content-card">
+              <img src="./images/6-case-study/Index_0036_1.png" alt="" />
+              <h3>ACCUMULATE CREATIVE IDEAS</h3>
+              <div class="bar"></div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+                libero placeat quidem deserunt ullam sapiente et aperiam sed
+                ipsam reprehenderit quos, beatae molestias asperiores voluptate
+                repellat praesentium nemo sequi. Iure?
+              </p>
+              <button class="btn">READ</button>
+            </div>
+            <div class="content-background">
+              <img
+                src="./images/6-case-study/Index_0037_Put-Your-Image.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div id="check-out-stats" clas="row">
+          <div class="stats-item">
+            <img src="./images/7-check-out-status/Index_0034_1.png" alt="" />
+            <div class="counter">3891</div>
+            <p>User Favorites</p>
+          </div>
+          <div class="stats-item">
+            <img src="./images/7-check-out-status/Index_0033_2.png" alt="" />
+            <div class="counter">281000</div>
+            <p>Posts Last 24 Hours</p>
+          </div>
+          <div class="stats-item">
+            <img src="./images/7-check-out-status/Index_0032_3.png" alt="" />
+            <div class="counter">618</div>
+            <p>Total Posts</p>
+          </div>
+          <div class="stats-item">
+            <img src="./images/7-check-out-status/Index_0031_4.png" alt="" />
+            <div class="counter">178</div>
+            <p>Campaigns</p>
+          </div>
+          <div class="stats-item">
+            <img src="./images/7-check-out-status/Index_0030_5.png" alt="" />
+            <div class="counter">285</div>
+            <p>Amazing Freatures</p>
+          </div>
+        </div>
+        <div id="pricing" class="row contianer">
+          <div class="pricing-title">
+            <h2>OUR PRICING</h2>
+            <p>
+              A 30 days free trial for all. A brief story about how this process
+              works, keep an eye till the end
+            </p>
+            <div class="figure-dot-">
+              <div class="line1"></div>
+              <div class="dot"></div>
+              <div class="line2"></div>
+            </div>
+          </div>
+          <div class="pricing-content">
+            <div class="pricing-option">
+              <div class="pricing-option-header">
+                <h3>STARTER</h3>
+              </div>
+              <div class="pricing-option-value">
+                <h3>$19</h3>
+                <p>per month</p>
+              </div>
+              <div class="pricing-option-details">
+                <p>
+                  Competition Analysis Methods<br /><br />
+                  All Ranked URLs<br /><br />
+                  International Support System<br /><br />
+                  Social Media Tracking
+                </p>
+              </div>
+              <button class="planBtn btn">CHOOSE PLAN</button>
+            </div>
+            <div class="pricing-option">
+              <div class="pricing-option-header">
+                <h3>PREMIUM</h3>
+              </div>
+              <div class="pricing-option-value">
+                <h3>$39</h3>
+                <p>per month</p>
+              </div>
+              <div class="pricing-option-details">
+                <p>
+                  Competition Analysis Methods<br />
+                  <br />
+                  All Ranked URLs<br />
+                  <br />
+                  International Support System<br /><br />
+                  Social Media Tracking
+                </p>
+              </div>
+              <button class="planBtn btn">CHOOSE PLAN</button>
+            </div>
+            <div class="pricing-option">
+              <div class="pricing-option-header">
+                <h3>BUSINESS</h3>
+              </div>
+              <div class="pricing-option-value">
+                <h3>$99</h3>
+                <p>per month</p>
+              </div>
+              <div class="pricing-option-details">
+                <p>
+                  Competition Analysis Methods<br /><br />
+                  All Ranked URLs<br /><br />
+                  International Support System<br /><br />
+                  Social Media Tracking
+                </p>
+              </div>
+              <button class="planBtn btn">CHOOSE PLAN</button>
+            </div>
+          </div>
+        </div>
+        <div id="team" class="row">
+          <div class="team-title">
+            <h2>OUR TEAM</h2>
+            <p>Meet the craziest team. Share your thoughts with them.</p>
+            <div class="figure-dot-">
+              <div class="line1"></div>
+              <div class="dot"></div>
+              <div class="line2"></div>
+            </div>
+          </div>
+          <img
+            class="clear"
+            src="./images/8-team/Shape 174 with layer.png"
+            alt=""
+          />
+
+          <div class="team-content">
+            <div class="team-element1 team-mate">
+              <img src="./images/8-team//Index_0028_1.png" alt="" />
+              <div class="team-element-details">
+                <h3>John Doe</h3>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+            <div class="team-element2 team-mate">
+              <img src="./images/8-team/Index_0027_2.png" alt="" />
+              <div class="team-element-details">
+                <h3>John Doe</h3>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+            <div class="team-element3 team-mate">
+              <img src="./images/8-team/Index_0026_3.png" alt="" />
+              <div class="team-element-details">
+                <h3>John Doe</h3>
+                <p>Graphic Designer</p>
+                z
+              </div>
+            </div>
+            <div class="team-element4 team-mate">
+              <img src="./images/8-team/Index_0025_4.png" alt="" />
+              <div class="team-element-details">
+                <h3>John Doe</h3>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+            <div class="team-element5 team-mate">
+              <img src="./images/8-team/Index_0024_5.png" alt="" />
+              <div class="team-element-details">
+                <h3>John Doe</h3>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="our-clients" class="contianer row">
+          <div class="our-clients-title row">
+            <h2>GREAT INTEGRATIONS WITH OTHERS</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              nisi in perspiciatis commodi ex. Minus ipsam vitae quos aut velit!
+            </p>
+            <div class="figure-dot-">
+              <div class="line1"></div>
+              <div class="dot"></div>
+              <div class="line2"></div>
+            </div>
+          </div>
+          <div class="our-clients-content">
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0014_Layer-49.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0015_Layer-48.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0016_Layer-47.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0017_Layer-46.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0018_Layer-45.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0019_bbb-logo-accredited.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0020_720px-US-OSHA-Logo.svg.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img src="./images/9-our-clients/logo_dob.png" alt="" />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0022_NAT-38071-1_1___EPA__LOGO_-_editted.png"
+                alt=""
+              />
+            </div>
+            <div class="our-clients-element">
+              <img
+                src="./images/9-our-clients/Index_0023_affiliations-nyc-dca.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div id="our-blog" class="row container-fluid">
+          <div class="blog-title">
+            <h2>OUR BLOG</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              provident.
+            </p>
+            <div class="figure-dot-">
+              <div class="line1"></div>
+              <div class="dot"></div>
+              <div class="line2"></div>
+            </div>
+          </div>
+          <div class="blog-content row">
+            <div class="col-xl-3 col-md-6 col-xs-12 blog-images">
+              <img src="./images/10-our-blog/Index_0010_3.png" alt="" />
+            </div>
+            <div class="col-xl-3 col-md-6 col-xs-12 image-info">
+              <p>art / t-shirt</p>
+              <h3>T-SHIRT DESIGN</h3>
+              <div class="rectangle"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                tempora ipsam magnam numquam, eum possimus eius odit porro
+                facere inventore, beatae voluptate rerum doloremque iste nihil
+                eveniet, magni exercitationem cum.
+              </p>
+              <a href=""><em>Read More >></em></a>
+            </div>
+            <div class="col-xl-3 col-md-6 col-xs-12 blog-images">
+              <img src="./images/10-our-blog/Index_0011_2.png" alt="" />
+            </div>
+            <div class="col-xl-3 col-md-6 col-xs-12 image-info">
+              <p>art / t-shirt</p>
+              <h3>T-SHIRT DESIGN</h3>
+              <div class="rectangle"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                tempora ipsam magnam numquam, eum possimus eius odit porro
+                facere inventore, beatae voluptate rerum doloremque iste nihil
+                eveniet, magni exercitationem cum.
+              </p>
+              <a href=""><em>Read More >></em></a>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-xs-12 image-info">
+              <p>art / t-shirt</p>
+              <h3>T-SHIRT DESIGN</h3>
+              <div class="rectangle"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                tempora ipsam magnam numquam, eum possimus eius odit porro
+                facere inventore, beatae voluptate rerum doloremque iste nihil
+                eveniet, magni exercitationem cum.
+              </p>
+              <a href=""><em>Read More >></em></a>
+            </div>
+            <div class="col-xl-3 col-md-6 col-xs-12 blog-images">
+              <img src="./images/10-our-blog/Index_0012_1.png" alt="" />
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-xs-12 image-info">
+              <p>art / t-shirt</p>
+              <h3>T-SHIRT DESIGN</h3>
+              <div class="rectangle"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                tempora ipsam magnam numquam, eum possimus eius odit porro
+                facere inventore, beatae voluptate rerum doloremque iste nihil
+                eveniet, magni exercitationem cum.
+              </p>
+              <a href=""><em>Read More >></em></a>
+            </div>
+            <div class="col-xl-3 col-md-6 col-xs-12 blog-images">
+              <img src="./images/10-our-blog/Index_0009_4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="container row">
+          <div class="contact-title col-12">
+            <h2>KEEP IN TOUCH</h2>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+              est.
+            </h3>
+            <div class="figure-dot-">
+              <div class="line1"></div>
+              <div class="dot"></div>
+              <div class="line2"></div>
+            </div>
+          </div>
+          <div class="details col-6 card">
+            <div class="address">
+              <h3>OUR ADDRESS</h3>
+              <h4>House #13, Streat road, Sydney 2310 Australia</h4>
+            </div>
+            <div class="call-us">
+              <h3>CALL US</h3>
+              <h4>
+                +880 168 109 1425<br />
+                +0216809142
+              </h4>
+            </div>
+            <div class="email-us">
+              <h3>EMAIL US</h3>
+              <h4>contactus@email.com</h4>
+            </div>
+          </div>
+          <div class="send-message col-6 card">
+            <form>
+              <div class="form-group">
+                <label for="nameInput">Name</label>
+                <input
+                  class="form-control"
+                  id="nameInput"
+                  type="text"
+                  required
+                  min="3"
+                />
+              </div>
+              <div class="form-group">
+                <label for="emailInput">Email</label>
+                <input
+                  class="form-control"
+                  id="emailInput"
+                  type="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="subjectInput">Subject</label>
+                <input
+                  class="form-control"
+                  id="subjectInput"
+                  type="text"
+                  max="30"
+                />
+              </div>
+              <div class="form-group">
+                <label for="textAreaMessage">Message</label>
+                <textarea
+                  class="form-control"
+                  id="textAreaMessage"
+                  maxlength="300"
+                  rows="4"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <h2></h2>
+        </div>
+        <div id="promo" class="row">
+          <div class="promo-content col-12">
+            <h2>Let's Get Started Now.<strong>It's FREEE!</strong></h2>
+            <p>
+              30 day free trial. Free plan allows up to 2 projects. Pay if you
+              need more. Cancel anytime. No catches.
+            </p>
+            <button class="btn">START FREE TRIAL</button>
+          </div>
+        </div>
+      </main>
+      <footer class="row">
+        <div class="socials">
+          <a href=""
+            ><img src="./images/12-footer/Index_0001_facebook.png" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/12-footer/Index_0000_twitter.png" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/12-footer/Index_0002_rss.png" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/12-footer/Index_0003_google-plus.png" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/12-footer/Index_0004_linkedin.png" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/12-footer/Index_0005_skype.png" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/12-footer/Index_0006_vimeo.png" alt=""
+          /></a>
+          <a href=""
+            ><img src="./images/12-footer/Index_0007_tumblr.png" alt=""
+          /></a>
+        </div>
+        <div class="rights">
+          <p>Someone Something &copy All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jscript.js"></script>
+  </body>
+</html>
