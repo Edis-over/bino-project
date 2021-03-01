@@ -168,7 +168,7 @@ $p-font-size: 0.875rem;
                   top: 40%;
                 }
                 @media screen and (max-width: 916px) {
-                  top: 28%;
+                  top: 30%;
                   button {
                     margin: 0 1.25rem;
                   }
@@ -200,13 +200,15 @@ $p-font-size: 0.875rem;
             }
           }
           @media screen and (max-width: 537px) {
-            height: 21.875rem;
+            height: 18rem;
+            // 21.875rem
             .carousel-inner {
               height: 100%;
               .carousel-item {
                 height: 100%;
                 img {
                   height: 100%;
+                  margin-top: auto;
                 }
                 .carousel-caption {
                   top: 30%;

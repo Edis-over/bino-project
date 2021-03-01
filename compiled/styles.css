@@ -56,11 +56,11 @@
 }
 * body .container-fluid header nav .container-fluid #navbarNavAltMarkup .navbar-nav a:after {
   content: "";
-  height: 4px;
-  width: 40px;
+  height: 0.25rem;
+  width: 2.5rem;
   background-color: #e74c3c;
   visibility: hidden;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 * body .container-fluid header nav .container-fluid #navbarNavAltMarkup .navbar-nav a:hover::after {
   color: #e74c3c;
@@ -145,7 +145,7 @@
 }
 @media screen and (max-width: 916px) {
   * body .container-fluid header #carouselControls .carousel-inner .carousel-item .carousel-caption {
-    top: 28%;
+    top: 30%;
   }
   * body .container-fluid header #carouselControls .carousel-inner .carousel-item .carousel-caption button {
     margin: 0 1.25rem;
@@ -176,7 +176,7 @@
 }
 @media screen and (max-width: 537px) {
   * body .container-fluid header #carouselControls {
-    height: 21.875rem;
+    height: 18rem;
   }
   * body .container-fluid header #carouselControls .carousel-inner {
     height: 100%;
@@ -186,6 +186,7 @@
   }
   * body .container-fluid header #carouselControls .carousel-inner .carousel-item img {
     height: 100%;
+    margin-top: auto;
   }
   * body .container-fluid header #carouselControls .carousel-inner .carousel-item .carousel-caption {
     top: 30%;

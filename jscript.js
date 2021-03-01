@@ -1,6 +1,6 @@
 //Button back to top
 
-$(".btnBackTop").on("click", function () {
+$("#btnBackTop").on("click", function () {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
