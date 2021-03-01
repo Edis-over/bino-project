@@ -47,7 +47,6 @@
             </div>
           </div>
         </nav>
-
         <div
           id="carouselControls"
           class="carousel slide carousel-fade"
@@ -60,7 +59,7 @@
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-md-block">
                 <div class="floating-content">
                   <h3>Out Clients Are Our First Priority</h3>
                   <h1>
@@ -91,7 +90,7 @@
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-md-block">
                 <div class="floating-content">
                   <h3>Out Clients Are Our First Priority</h3>
                   <h1>WELCOME TO <br />BINO 2</h1>
@@ -118,7 +117,7 @@
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-md-block">
                 <div class="floating-content">
                   <h3>Out Clients Are Our First Priority</h3>
                   <h1>WELCOME TO <br />BINO 3</h1>
@@ -146,7 +145,10 @@
             data-bs-target="#carouselControls"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span
+              class="carousel-control-prev-icon btn"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
@@ -155,15 +157,17 @@
             data-bs-target="#carouselControls"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span
+              class="carousel-control-next-icon btn"
+              aria-hidden="true"
+            ></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-
         <button class="btn" id="btnAnchor">
           <img src="./images/1-header/Index_0056_Forma-1.png" alt="" />
         </button>
-        <button class="btnBackTop">^</button>
+        <button id="btnBackTop">^</button>
       </header>
       <main class="container-fluid">
         <div id="who-we-are" class="row">
@@ -500,7 +504,7 @@
             <p>Amazing Freatures</p>
           </div>
         </div>
-        <div id="pricing" class="row contianer">
+        <div id="pricing" class="row">
           <div class="pricing-title">
             <h2>OUR PRICING</h2>
             <p>
@@ -627,7 +631,7 @@
             </div>
           </div>
         </div>
-        <div id="our-clients" class="contianer row">
+        <div id="our-clients" class="row">
           <div class="our-clients-title row">
             <h2>GREAT INTEGRATIONS WITH OTHERS</h2>
             <p>
@@ -778,78 +782,80 @@
             </div>
           </div>
         </div>
-        <div id="contact" class="container row">
+        <div id="contact" class="row container-fluid">
           <div class="contact-title col-12">
             <h2>KEEP IN TOUCH</h2>
-            <h3>
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
               est.
-            </h3>
+            </p>
             <div class="figure-dot-">
               <div class="line1"></div>
               <div class="dot"></div>
               <div class="line2"></div>
             </div>
           </div>
-          <div class="details col-6 card">
-            <div class="address">
-              <h3>OUR ADDRESS</h3>
-              <h4>House #13, Streat road, Sydney 2310 Australia</h4>
+          <div class="contact-content row">
+            <div class="contact-details">
+              <div class="address detail-card">
+                <h3>OUR ADDRESS</h3>
+                <h4>House #13, Streat road, Sydney 2310 Australia</h4>
+              </div>
+              <div class="call-us detail-card">
+                <h3>CALL US</h3>
+                <h4>
+                  +880 168 109 1425<br />
+                  +0216809142
+                </h4>
+              </div>
+              <div class="email-us detail-card">
+                <h3>EMAIL US</h3>
+                <h4>contactus@email.com</h4>
+              </div>
             </div>
-            <div class="call-us">
-              <h3>CALL US</h3>
-              <h4>
-                +880 168 109 1425<br />
-                +0216809142
-              </h4>
-            </div>
-            <div class="email-us">
-              <h3>EMAIL US</h3>
-              <h4>contactus@email.com</h4>
+            <div class="contact-send-message">
+              <form>
+                <div class="form-group">
+                  <label for="nameInput">Name</label>
+                  <input
+                    class="form-control"
+                    id="nameInput"
+                    type="text"
+                    required
+                    min="3"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="emailInput">Email</label>
+                  <input
+                    class="form-control"
+                    id="emailInput"
+                    type="email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="subjectInput">Subject</label>
+                  <input
+                    class="form-control"
+                    id="subjectInput"
+                    type="text"
+                    max="30"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="textAreaMessage">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="textAreaMessage"
+                    maxlength="300"
+                    rows="4"
+                  ></textarea>
+                </div>
+              </form>
+              <button class="btn formBtn">SEND MESSAGE</button>
             </div>
           </div>
-          <div class="send-message col-6 card">
-            <form>
-              <div class="form-group">
-                <label for="nameInput">Name</label>
-                <input
-                  class="form-control"
-                  id="nameInput"
-                  type="text"
-                  required
-                  min="3"
-                />
-              </div>
-              <div class="form-group">
-                <label for="emailInput">Email</label>
-                <input
-                  class="form-control"
-                  id="emailInput"
-                  type="email"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="subjectInput">Subject</label>
-                <input
-                  class="form-control"
-                  id="subjectInput"
-                  type="text"
-                  max="30"
-                />
-              </div>
-              <div class="form-group">
-                <label for="textAreaMessage">Message</label>
-                <textarea
-                  class="form-control"
-                  id="textAreaMessage"
-                  maxlength="300"
-                  rows="4"
-                ></textarea>
-              </div>
-            </form>
-          </div>
-          <h2></h2>
         </div>
         <div id="promo" class="row">
           <div class="promo-content col-12">
@@ -895,8 +901,13 @@
       </footer>
     </div>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+      integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+      integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
       crossorigin="anonymous"
     ></script>
     <script src="jscript.js"></script>
